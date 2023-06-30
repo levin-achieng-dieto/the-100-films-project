@@ -1,0 +1,114 @@
+/* #173b3f
+#132128
+#56C870
+#e0f1eb
+fff */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.section-one {
+    color: white;
+    text-align: center;
+    background: url(../images/BOOST\ Brown\ Minimalist\ Pitch\ Deck\ Presentation.png) no-repeat center;
+}
+
+.container {
+    background: rgba(23, 59, 63, 0.6);
+}
+
+hr {
+    width: 25%;
+    margin: auto;
+    border: 2px solid #C6AC8F
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+.project h1 {
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.project p {
+    font-weight: 900;
+}
+
+.sub-container {
+    padding-top: 8rem;
+    width: 70%;
+    margin: auto;
+}
+
+.project-description {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.project-description p {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 4rem;
+    text-align: left;
+}
+
+button {
+    padding: 1.3rem 2rem;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    background-color: #56C870;
+    font-weight: 700;
+    color: #173B3F;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    /* font-size: 1.5rem; */
+}
+
+.partners {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.academy img {
+    width: 7rem;
+}
+
+.fiction img {
+    width: 6rem;
+    margin-top: 4.4rem;
+}
+
+.four-sixteen {
+    margin-top: 3.5rem;
+    color: black;
+    margin-left: 2rem;
+}
+
+
+.four-sixteen h3 {
+    color: #000;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.four-sixteen h3 strong {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}

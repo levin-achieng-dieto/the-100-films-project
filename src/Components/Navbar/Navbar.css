@@ -1,0 +1,32 @@
+.section {
+    background-color: #132128;
+    color: white;
+}
+
+.navbar {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logo {}
+
+.navContent ul {
+    display: flex;
+}
+
+.navContent ul li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.navContent button {
+    padding: 0.8rem 2rem;
+    margin: -1.4rem 0;
+}

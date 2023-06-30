@@ -1,0 +1,33 @@
+.section-two {
+    background-color: white;
+    color: #132128;
+}
+
+.more-description {
+    width: 70%;
+    margin: auto;
+}
+
+.more-description hr {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.more-description h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #132128;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.more-description p {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.more-description button {
+    margin-top: 4rem;
+    font-weight: 100;
+    margin-bottom: 4rem;
+}

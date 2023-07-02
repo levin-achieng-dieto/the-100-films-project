@@ -5,6 +5,7 @@ import Aboutpage from "./Components/Aboutpage/Aboutpage";
 import Courses from "./Components/Courses/Courses";
 import Footer from "./Components/Footer/Footer";
 import "./App.css"
+// import { Route, Routes } from "react-router-dom";
 
 
 

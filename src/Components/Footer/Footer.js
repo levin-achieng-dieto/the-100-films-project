@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhone, FaGlobe, FaMapMarkerAlt } from 'react-icons/fa'
 function Footer() {
     return (
         <>
-            <div className="last-section">
+            <div className="last-section" id="contacts">
                 <div className="registration-form">
                     <div className="registration">
                         <h3>Join The Program</h3>

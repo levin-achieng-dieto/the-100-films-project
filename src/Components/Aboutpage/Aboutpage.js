@@ -4,7 +4,7 @@ import "./Aboutpage.css"
 function Aboutpage() {
     return (
         <>
-            <div className="section-two">
+            <div className="section-two" id="aboutpage">
                 <div className="more-description">
                     <hr></hr>
                     <h2>About This Program</h2>

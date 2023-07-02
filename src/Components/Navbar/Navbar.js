@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css"
+// import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll"
 
 function Navbar() {
     return (
@@ -9,13 +11,12 @@ function Navbar() {
                     <logo className="logo">LOGO</logo>
                     <nav className="navContent">
                         <ul>
-                            <li>HOME</li>
-                            <li>ABOUT US</li>
-                            <li>COURSES</li>
-                            <li>PARTNERS</li>
-                            <li>CONTACTS</li>
+                            <li><LinkScroll activeClass="active" to="/home" spy={true} smooth="true" duration={500} offset={0}>HOME</LinkScroll></li>
+                            <li><LinkScroll activeClass="active" to="aboutpage" spy={true} smooth="true" duration={500} offset={0}>ABOUT US</LinkScroll></li>
+                            <li><LinkScroll activeClass="active" to="courses" spy={true} smooth="true" duration={500} offset={0}>COURSES</LinkScroll></li>
+                            <li><LinkScroll activeClass="active" to="courses" spy={true} smooth="true" duration={500} offset={0}>PARTNERS</LinkScroll></li>
+                            <li><LinkScroll activeClass="active" to="footer" spy={true} smooth="true" duration={1000} offset={0}>CONTACTS</LinkScroll></li>
                             <li><button>Sign in</button></li>
-
                         </ul>
                     </nav>
                 </div>

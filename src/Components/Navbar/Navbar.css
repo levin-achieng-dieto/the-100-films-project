@@ -1,6 +1,8 @@
 .section {
     background-color: #132128;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar {

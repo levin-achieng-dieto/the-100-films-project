@@ -7,10 +7,13 @@ import logo from "../images/logo.png"
 function Homepage() {
     return (
         <>
-            <div className="section-one">
+            <div className="section-one" id="/home">
                 <div className="container">
                     <div className="sub-container">
-                        <hr></hr>
+                        <div className="first-line">
+                            <hr></hr>
+                        </div>
+
                         <div className="project">
                             <h1>THE 100 FILMS PROJECT</h1>
                             <p>A Youth Empowerment Initiative</p>

@@ -8,7 +8,7 @@ import FourSixteen from "../images/My project (1).png"
 function Courses() {
     return (
         <>
-            <div className="section-three">
+            <div className="section-three" id="courses">
                 <div className="container-three">
                     <div class="courses">
                         <div class="pre-production course-container">

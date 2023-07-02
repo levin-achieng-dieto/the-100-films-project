@@ -36,9 +36,28 @@ function Footer() {
                                     <div>Register</div>
                                 </div>
                             </div>
-                            <div></div>
+                            <div className="footer-links">
+                                <div>
+                                    <h4>courses</h4>
+                                </div>
+                                <div className="helpful-links">
+                                    <div>Pre-Production</div>
+                                    <div>Production</div>
+                                    <div>Post-production</div>
+                                    <div>Management</div>
+                                </div>
+                            </div>
+                            <div className="subscribe">
+                                <div>
+                                    <h4>Subscribe More Info</h4>
+                                    <input type="text" placeholder=" Enter your Email" required></input>
+                                </div>
+                                <div>
+                                    <button>Subscribe</button>
+                                </div>
+                            </div>
                         </div>
-                        <div>made with love @2023</div>
+                        {/* <div>made with love @2023</div> */}
                     </div>
                 </div>
             </div>

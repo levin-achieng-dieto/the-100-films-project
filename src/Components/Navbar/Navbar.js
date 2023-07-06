@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css"
-// import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll"
 
 function Navbar() {

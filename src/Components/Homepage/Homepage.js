@@ -2,6 +2,7 @@ import React from "react";
 import './Homepage.css'
 import slider02 from "../images/Slider02.png"
 import logo from "../images/logo.png"
+import { Link as Linkscroll } from "react-scroll"
 
 
 function Homepage() {
@@ -24,7 +25,7 @@ function Homepage() {
                             <p>partnership between African Fiction Academy, Fiction Entertainment and 416</p>
                             <p>Production, to inspire talented individual by providing opportuinities</p>
                             <p>and intensive hands-on training in the actual film production.</p>
-                            <div className="btn"><button>Register Now</button></div>
+                            <div className="btn"><Linkscroll activeClass="active" to="/dashboard-form" spy={true} smooth="true" duration={1000} offset={0} ><button>Register Now</button></Linkscroll></div>
                         </div>
                         <div className="partners">
                             <div className="academy">

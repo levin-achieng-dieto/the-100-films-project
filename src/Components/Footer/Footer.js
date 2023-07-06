@@ -1,19 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import './Footer.css'
 import { FaEnvelope, FaPhone, FaGlobe, FaMapMarkerAlt } from 'react-icons/fa'
 
 function Footer() {
+
+
+
     return (
         <>
             <div className="last-section" id="contacts">
-                <div className="registration-form">
-                    <div className="registration">
-                        <h3>Join The Program</h3>
-                        <div className="reg-button">
-                            <button>Register Now</button>
-                        </div>
-                    </div>
-                </div>
+
                 <div className="footer-section">
                     <div className="footer">
                         <div className="contacts">

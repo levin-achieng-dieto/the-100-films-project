@@ -1,0 +1,5 @@
+.residential-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}

@@ -1,22 +1,17 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios"
-
 import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Components/Homepage/Homepage";
 import Aboutpage from "./Components/Aboutpage/Aboutpage";
 import Courses from "./Components/Courses/Courses";
 import Footer from "./Components/Footer/Footer";
 import "./App.css"
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Register from "./Components/Register/Register";
-import Signup from "./Components/Signup/Signup";
-// import Login from "./Components/Login/Login";
+import RegistrationForm from "./Components/Signup/RegistrationForm";
 
-const api = "http://localhost:9292/registered_members";
+
+const api = "http://localhost:4000/registers";
 
 function App() {
-
-
   const [post, setPost] = useState([]);
 
   useEffect(() => {
@@ -29,17 +24,13 @@ function App() {
   };
 
 
-
   return (
     <>
       <Navbar />
       <Homepage />
       <Aboutpage />
       <Courses />
-      {/* <Register /> */}
-      <Signup posts={post} loadPosts={loadPosts} />
-      {/* <Login /> */}
-      {/* <Dashboard /> */}
+      <RegistrationForm posts={post} loadPosts={loadPosts} />
       <Footer />
     </>
   );

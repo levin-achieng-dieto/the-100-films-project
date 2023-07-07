@@ -1,0 +1,56 @@
+.flexing {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem 2rem;
+}
+
+.submit-option {
+    margin: 0 15rem;
+}
+
+label {
+    display: block;
+}
+
+
+
+select,
+input {
+    padding: 0.5rem 2rem 0.5rem 0.1rem;
+    border-radius: 5px;
+    width: 19rem;
+}
+
+/* #173b3f
+#132128
+#56C870
+#e0f1eb
+fff */
+
+.modal {
+    background-color: #132128;
+}
+
+.modal h3 {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.form-container {
+    background-color: #132128;
+    padding-bottom: 4rem;
+    color: white;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+form div {
+    margin: auto;
+}

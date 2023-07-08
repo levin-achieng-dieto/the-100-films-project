@@ -31,3 +31,12 @@
     font-weight: 100;
     margin-bottom: 4rem;
 }
+
+
+@media (max-width: 1500px) {
+    .more-description {
+        width: 80%;
+
+    }
+
+}

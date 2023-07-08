@@ -15,7 +15,6 @@ function Navbar() {
                             <li><LinkScroll activeClass="active" to="courses" spy={true} smooth="true" duration={500} offset={0}>COURSES</LinkScroll></li>
                             <li><LinkScroll activeClass="active" to="courses" spy={true} smooth="true" duration={500} offset={0}>PARTNERS</LinkScroll></li>
                             <li><LinkScroll activeClass="active" to="footer" spy={true} smooth="true" duration={1000} offset={0}>CONTACTS</LinkScroll></li>
-                            <li><button>Sign in</button></li>
                         </ul>
                     </nav>
                 </div>

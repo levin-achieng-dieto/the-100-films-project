@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Homepage />
+      <Homepage posts={post} loadPosts={loadPosts} />
       <Aboutpage />
       <Courses />
       <RegistrationForm posts={post} loadPosts={loadPosts} />

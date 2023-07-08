@@ -32,6 +32,8 @@ function Footer() {
                                     <div>Register</div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="contacts">
                             <div className="footer-links">
                                 <div>
                                     <h4>courses</h4>
@@ -53,7 +55,6 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div>made with love @2023</div> */}
                     </div>
                 </div>
             </div>

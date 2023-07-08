@@ -39,19 +39,23 @@ fff */
 }
 
 .footer {
-    width: 70%;
+    width: 100%;
     padding: 4rem 0;
     margin: auto;
     font-size: 0.89em;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contacts {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
+
 }
 
 .contact-details {
     margin-bottom: 3rem;
+    margin-right: 8rem;
 }
 
 .contact-details h4 {
@@ -97,10 +101,44 @@ strong {
     width: 130%;
 }
 
+
+.footer-links {
+    margin-right: 8rem;
+}
+
+
 .footer-links h4 {
     margin-bottom: 2rem;
 }
 
 .helpful-links div {
     padding-bottom: 1rem;
+}
+
+
+@media (max-width: 1500px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .contacts {
+        display: block;
+    }
+
+    .footer h4 {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+
+    .subscribe input {
+        width: 100%;
+    }
 }

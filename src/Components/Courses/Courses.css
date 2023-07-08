@@ -6,13 +6,15 @@ fff */
 
 .container-three {
     background-color: #e0f1eb;
+    display: flex;
+    justify-content: space-between;
 }
 
 .courses {
     width: 70%;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -44,8 +46,10 @@ fff */
 .course-container li {
     list-style: none;
     padding-bottom: 0.5rem;
+    margin-left: 1rem;
     font-weight: 300;
     font-size: 1.2rem;
+    list-style: square
 }
 
 .four-sixteen,
@@ -95,4 +99,87 @@ fff */
     width: 22rem;
     margin-top: -6rem;
     margin-left: 4rem;
+}
+
+
+
+@media (max-width: 1500px) {
+    .partners-contribution {
+        width: 90%;
+
+    }
+
+    .courses {
+        width: 100%;
+    }
+
+    .container-three {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+
+
+@media (max-width: 1350px) {
+    .container-three {
+        display: block;
+    }
+
+    .course-container {
+        height: 35rem;
+        width: 25rem;
+
+    }
+}
+
+@media (max-width: 900px) {
+
+    .four-sixteen,
+    .fiction-academy {
+        display: block;
+    }
+
+    .fiction-entertainment {
+        display: block;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .courses {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .course-container {
+        height: 35rem;
+        width: 30rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .partners-contribution {
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+    }
+
+    .four-sixteen img {
+        margin: auto;
+        margin-left: 2rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .course-container {
+        width: 25rem;
+    }
+
+    .courses {
+        width: 100%;
+        margin: auto;
+    }
 }

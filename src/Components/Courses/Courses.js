@@ -10,8 +10,8 @@ function Courses() {
         <>
             <div className="section-three" id="courses">
                 <div className="container-three">
-                    <div class="courses">
-                        <div class="pre-production course-container">
+                    <div className="courses">
+                        <div className="pre-production course-container">
                             <h3>Pre-Production</h3>
                             <ul>
                                 <li>Script Breakdown</li>
@@ -34,6 +34,8 @@ function Courses() {
                                 <li>Production Lighting and Technical</li>
                             </ul>
                         </div>
+                    </div>
+                    <div className="courses">
                         <div class="post-production course-container">
                             <h3>Post production</h3>
                             <ul>
@@ -87,16 +89,29 @@ function Courses() {
                         <img src={Academy} alt="African Academy" />
                     </div>
                     <div className="fiction-entertainment">
+                        <h5>Fiction Entertainment studio</h5>
                         <img src={Fiction} alt="Fiction entertainment" />
                         <div>
-                            <h5>Fiction Entertainment studio</h5>
-                            <p>A fiction entertainment studio is a creative powerhouse that brings captivating stories to life. Through various mediums like film, television, and gaming, these studios conceive, develop, produce, and distribute fictional content. They engage in scriptwriting, casting, directing, visual effects, and sound design to deliver immersive and imaginative experiences for audiences worldwide.</p>
+
+                            <p>A fiction entertainment studio is a creative powerhouse that brings
+                                captivating stories to life. Through various mediums like film,
+                                television, and gaming, these studios conceive, develop, produce, and
+                                distribute fictional content. They engage in scriptwriting, casting,
+                                directing, visual effects, and sound design to deliver immersive and
+                                imaginative experiences for audiences worldwide.</p>
                         </div>
                     </div>
                     <div className="four-sixteen">
                         <div className="four-sixteen-prod">
                             <h5>416 production</h5>
-                            <p>416PROD is a cutting-edge production company that excels in crafting captivating visual experiences. With a dedicated team of skilled professionals, they provide comprehensive services for film, television, and digital media projects. From concept development and scriptwriting to shooting, editing, and post-production, 416PROD delivers top-notch content. Their expertise in cinematography, visual effects, and sound design ensures that every project they undertake is a visual masterpiece that engages and captivates audiences.</p>
+                            <p>416PROD is a cutting-edge production company that excels in crafting
+                                captivating visual experiences. With a dedicated team of skilled
+                                professionals, they provide comprehensive services for film, television,
+                                and digital media projects. From concept development and scriptwriting
+                                to shooting, editing, and post-production, 416PROD delivers top-notch
+                                content. Their expertise in cinematography, visual effects, and sound
+                                design ensures that every project they undertake is a visual masterpiece
+                                that engages and captivates audiences.</p>
                         </div>
                         <img src={FourSixteen} alt="African Academy" />
                     </div>

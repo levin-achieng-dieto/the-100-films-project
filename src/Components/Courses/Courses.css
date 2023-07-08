@@ -4,10 +4,15 @@
 #e0f1eb
 fff */
 
-.container-three {
+.section-three {
     background-color: #e0f1eb;
+}
+
+.container-three {
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    width: 90%;
 }
 
 .courses {

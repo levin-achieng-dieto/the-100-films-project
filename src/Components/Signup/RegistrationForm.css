@@ -22,11 +22,6 @@ input {
     width: 19rem;
 }
 
-/* #173b3f
-#132128
-#56C870
-#e0f1eb
-fff */
 
 .modal {
     background-color: #132128;
@@ -53,4 +48,15 @@ form {
 
 form div {
     margin: auto;
+}
+
+@media (max-width: 900px) {
+    .flexing {
+        display: block;
+    }
+
+    .submit-option {
+        display: flex;
+        margin: auto;
+    }
 }

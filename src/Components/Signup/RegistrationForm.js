@@ -16,13 +16,11 @@ const initialState = {
     availability: "",
 };
 
-
 function RegistrationForm({ posts, loadPosts }) {
     const [show, setShow] = useState(false);
     const [state, setState] = useState(initialState);
     const [userId, setUserId] = useState(null);
     const [editMode, setEditMode] = useState(false);
-
 
     // object destructuring
     const { fullname, email, number, date, region, availability } = state;

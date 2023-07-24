@@ -24,7 +24,7 @@ input {
 
 
 .modal {
-    background-color: #132128;
+    background-color: #fff;
 }
 
 .modal h3 {
@@ -32,14 +32,18 @@ input {
     padding-top: 4rem;
     padding-bottom: 3rem;
     font-size: 1.5rem;
-    color: white;
+    /* color: white; */
+    color: black;
 }
 
 .form-container {
-    background-color: #132128;
+    background-color: #fff;
     padding-bottom: 4rem;
-    color: white;
+    /* color: white; */
+    color: black;
 }
+
+/* #132128 */
 
 form {
     width: 70%;

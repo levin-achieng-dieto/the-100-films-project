@@ -13,7 +13,10 @@
     padding: 2rem 0;
 }
 
-.logo {}
+.logo p {
+    font-size: 0.5rem;
+    font-weight: 100;
+}
 
 .navContent ul {
     display: flex;

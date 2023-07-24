@@ -7,7 +7,10 @@ function Navbar() {
         <>
             <div className="section">
                 <div className="navbar">
-                    <logo className="logo">LOGO</logo>
+                    <logo className="logo">
+                        <h3>100-FILMS</h3>
+                        <p>YouthEmpowermentInitiative</p>
+                    </logo>
                     <nav className="navContent">
                         <ul>
                             <li><LinkScroll activeClass="active" to="/home" spy={true} smooth="true" duration={500} offset={0}>HOME</LinkScroll></li>

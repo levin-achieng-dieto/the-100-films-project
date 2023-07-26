@@ -18,7 +18,7 @@
 
 .work-samples {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
@@ -34,7 +34,7 @@
     border: 0.1rem solid black;
     padding: 1.2rem;
     margin: 2rem;
-    width: 45%;
+    width: 35%;
     text-align: center;
     color: #132128;
 }
@@ -48,4 +48,32 @@
     padding-top: 2rem;
 }
 
-.work-samples p {}
+@media (max-width: 1000px) {
+    .work-samples div {
+        width: 40%;
+    }
+
+    .work-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .work-samples div {
+        width: 40%;
+    }
+
+    .work-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .work-samples div {
+        width: 100%;
+    }
+
+    .work-container {
+        width: 100%;
+    }
+}

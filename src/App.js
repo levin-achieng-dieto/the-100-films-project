@@ -7,12 +7,16 @@ import Courses from "./Components/Courses/Courses";
 import Footer from "./Components/Footer/Footer";
 import "./App.css"
 import RegistrationForm from "./Components/Signup/RegistrationForm";
+import Projects from "./Components/Projects/Projects";
+// import { Card } from "react-bootstrap";
+import Card from "./Components/Card/Card";
 
 
 const api = "http://localhost:4000/registers";
 
 function App() {
   const [post, setPost] = useState([]);
+
 
   useEffect(() => {
     loadPosts();
@@ -24,12 +28,16 @@ function App() {
   };
 
 
+
+
   return (
     <>
       <Navbar />
       <Homepage posts={post} loadPosts={loadPosts} />
       <Aboutpage />
       <Courses />
+      <Card />
+      <Projects />
       <RegistrationForm posts={post} loadPosts={loadPosts} />
       <Footer />
     </>

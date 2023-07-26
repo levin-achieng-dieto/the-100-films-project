@@ -1,0 +1,51 @@
+.our-work {
+    /* background-color: #132128; */
+    margin-bottom: 0.2rem;
+}
+
+.work-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.work-container h1 {
+    color: black;
+    padding: 4rem 0;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.work-samples {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.work-samples a {
+    text-decoration: none;
+    color: #132128;
+}
+
+
+.work-samples div {
+    background-color: #fff;
+    border: 0.1rem solid black;
+    padding: 1.2rem;
+    margin: 2rem;
+    width: 45%;
+    text-align: center;
+    color: #132128;
+}
+
+.work-samples img {
+    width: 98%;
+}
+
+.work-samples h4 {
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+.work-samples p {}
